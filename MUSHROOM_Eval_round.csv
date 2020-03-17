@@ -1,0 +1,16 @@
+,Model,Partition,Params,Train_Acc,Train_F1,Val_Acc,Val_F1,Test_Acc,Test_F1,Acc_Std,F1_Std
+0,LogisticRegression,0.2,{'C': 10},0.9643,0.9651,0.9641,0.9649,0.9655,0.9681,0.0023,0.0022
+1,LogisticRegression,0.5,{'C': 1000},0.9774,0.9776,0.9746,0.975,0.9742,0.9755,0.004,0.0039
+2,LogisticRegression,0.8,{'C': 1000},0.9821,0.9825,0.9754,0.9758,0.9794,0.9801,0.0051,0.0051
+3,LinearSVC,0.2,{'C': 1},0.9503,0.9515,0.9497,0.9508,0.9495,0.9535,0.0049,0.0049
+4,LinearSVC,0.5,{'C': 1},0.9549,0.9556,0.9547,0.9554,0.9549,0.9573,0.0052,0.0051
+5,LinearSVC,0.8,{'C': 10},0.9563,0.9569,0.9532,0.9542,0.9577,0.9589,0.0053,0.0055
+6,KNeighborsClassifier,0.2,{'n_neighbors': 1},1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0
+7,KNeighborsClassifier,0.5,{'n_neighbors': 1},1.0,1.0,0.9998,0.9998,1.0,1.0,0.0005,0.0005
+8,KNeighborsClassifier,0.8,{'n_neighbors': 1},1.0,1.0,0.9988,0.9988,0.9989,0.999,0.0015,0.0015
+9,RandomForestClassifier,0.2,"{'max_features': 1, 'n_estimators': 1024}",1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0
+10,RandomForestClassifier,0.5,"{'max_features': 12, 'n_estimators': 1024}",1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0
+11,RandomForestClassifier,0.8,"{'max_features': 6, 'n_estimators': 1024}",1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0
+12,GradientBoostingClassifier,0.2,{'n_estimators': 64},1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0
+13,GradientBoostingClassifier,0.5,{'n_estimators': 64},1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0
+14,GradientBoostingClassifier,0.8,{'n_estimators': 128},1.0,1.0,1.0,1.0,1.0,1.0,0.0,0.0
